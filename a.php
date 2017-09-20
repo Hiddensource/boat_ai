@@ -2,7 +2,8 @@
 if(isset($_GET['s'])){
 $u=$_GET['u']	;
 $p=$_GET['p'];
-echo shell_exec('python a1.py'.$u.$p);
+echo $u;
+echo shell_exec('python a1.py $u $p');
 }
 
 ?>
