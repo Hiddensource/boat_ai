@@ -1,4 +1,4 @@
-<?php 
+<?php
 if(isset($_GET['s'])){
 $u=$_GET['u']	;
 $p=$_GET['p'];
